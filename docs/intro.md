@@ -69,11 +69,18 @@ please run the following command:
 ```
 :::
 :::danger[Troubleshooting]
-if you run into an error similar to: if you see command nx unrecognized
+if you run into an error similar to: command nx unrecognized
 
 please make sure npm is set in your PATH environment variable.
 :::
+:::danger[Troubleshooting]
+if you run into an error similar to:  cannot be loaded because running scripts is disabled on this system
 
+please make sure to run powershell as administrator and run the following command:
+```bash
+  Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+```
+:::
 :::tip[ON success]
 
 NX will serve the site to [localhost](http://localhost:4200) and you can view the site in your browser.
