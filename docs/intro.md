@@ -78,7 +78,7 @@ if you run into an error similar to:  cannot be loaded because running scripts i
 
 please make sure to run powershell as administrator and run:
 ```bash
-  Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+  Set-Exx`ecutionPolicy -ExecutionPolicy Unrestricted
 ```
 :::
 :::tip[ON success]
