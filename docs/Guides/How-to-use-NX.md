@@ -20,20 +20,19 @@ To generate a new page using NX Console:
 6. make sure `standalone` is selected.
 7. Click `Generate` to generate your new component.
 #### using a generated Page
-1. Navigate to the folder of the page you wish to add the component to.
-2. Navigate to 
+1. Navigate to 
 ```typescript 
 `app.routes.ts`
 ```
-3. import the component 
+2. import the component 
 ```typescript 
 import { <NewComponent> } from 'src/<ComponentName>/<ComponentName>.component';.
 ```     
-4. within appRoutes, add a path to the component eg. 
+3. within appRoutes, add a path to the component eg. 
 ```typescript
 `{ path: 'component', component: <NewComponent> },`.
 ```
-5. to route to the page, use routerLink
+4. to route to the page, use routerLink
 ```html 
 `<button class="btn btn-primary" routerLink="/component"></button>`
 ```
